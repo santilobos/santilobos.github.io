@@ -1,0 +1,304 @@
+
+@font-face {
+    font-family: "Everett";
+    src:url(fonts/Everett-Light.woff2) format('woff2');
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face {
+    font-family: "Everett";
+    src:url(fonts/Everett-Regular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Everett";
+    src:url(fonts/Everett-Medium.woff2) format('woff2');
+    font-weight: medium;
+    font-style: medium;
+}
+
+
+
+:root {
+    --black: #000000;
+    --orange: #FF5C00;
+    --bacground: #F7F4F0;   
+}
+
+
+/* Elements */
+
+body{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F4F0;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F4F0;
+    overflow-x: hidden;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 72px;
+    background-color: #F7F4F0;
+    z-index: 1;
+}
+
+
+h1 {
+    font-family: "Everett";
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0px;
+    padding-right: 56px;
+}
+
+
+h2 {
+    font-family: "Everett";
+    font-weight: medium;
+    font-size: 14px;
+    margin: 0px;
+}
+
+
+h3 {
+    font-family: "Everett";
+    font-weight: normal;
+    color: #FF5C00;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+h4 {
+    font-family: "Everett";
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+p {
+    font-family: "Everett";
+    font-weight: normal;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+a {
+    font-family: "Everett";
+    font-weight: medium;
+    text-decoration: none;
+    
+}
+
+    a:link {
+         color:#000000
+    }
+
+    a:visited {
+        color:#000000;
+    }    
+
+    a:hover {
+    color: #FF5C00;
+    }      
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 40vh;
+    margin: 4px 0px;
+}   
+
+
+
+
+
+
+
+
+
+
+/* CLASES */
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+
+.information {
+    display: flex;
+    width: 100%;
+}
+
+
+.work {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}   
+
+
+.logo {
+    width: 50%;
+    padding-left: 16px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-right: 16px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    padding: 1% 6%;
+}
+
+
+.display {
+    font-family: "Everett";
+    font-weight: normal;
+    color: #000000;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigcases {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    margin: 4px 0px;
+}
+
+.caseB {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 2px;
+}
+
+
+.smallcases{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    margin: 4px 0px;
+}
+
+
+.caseS {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+}
+
+
+.foot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+}
+
+
+.videocase {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    object-fit: cover;
+}
+
+.projectname {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 24px;
+    background-color: #FF5C00;
+
+    
+}
+
+
+
+/* ID */
+
+#video {
+    display: block;
+    width: 100vw;
+    height: 95vh;
+}
+
+#about {
+    width: 100vw;
+    height: 95vh;
+}
+
+
+
+
+/* HOVER */
+
+.videocase:hover {
+    opacity: 0;
+    transition: 200ms;
+}
