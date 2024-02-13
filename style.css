@@ -160,7 +160,7 @@ footer {
     width: 100vw;
     height: 40vh;
     margin: 0px 0px;
-    background-color: #dedcd8;
+    background-color:#ece9e3;
 }   
 
 
@@ -320,7 +320,7 @@ form {
     width: 100vw;
     height: -webkit-fill-available;
     margin-top: 40px;
-    background-color: #dedcd8;
+    background-color: #ece9e3;
 
 }    
 
@@ -347,37 +347,6 @@ form {
     width: 60%;
     margin: 16px 0px;
 }
-
-
-
-
-/* ID */
-
-#video {
-    display: block;
-    width: 100vw;
-    height: 95vh;
-}
-
-#about {
-    width: 100vw;
-    height: 95vh;
-}
-
-
-#hero {
-    scroll-behavior: smooth;
-}
-
-
-/* HOVER */
-
-.videocase:hover {
-    opacity: 0;
-    transition: 200ms;
-}
-
-
 
 
 .area {
@@ -436,13 +405,6 @@ form {
     padding-bottom: 40px;
 }
 
-
-
-::placeholder {
-    color: #00000069;
-}
-
-
 .thanks {
     display: flex;
     width: 100vw;
@@ -467,9 +429,41 @@ form {
 
 }
 
-.arrow {
-    width: 40px;
-    height: 40px;
-    
+
+
+
+
+/* ID */
+
+#video {
+    display: block;
+    width: 100vw;
+    height: 95vh;
 }
+
+#about {
+    width: 100vw;
+    height: 95vh;
+}
+
+
+#hero {
+    scroll-behavior: smooth;
+}
+
+
+/* HOVER */
+
+.videocase:hover {
+    opacity: 0;
+    transition: 200ms;
+}
+
+
+
+::placeholder {
+    color: #00000069;
+}
+
+
 
